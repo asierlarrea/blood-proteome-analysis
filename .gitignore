@@ -205,3 +205,34 @@ cython_debug/
 marimo/_static/
 marimo/_lsp/
 __marimo__/
+
+# Project-specific generated outputs and local archives
+cache/
+tables/
+sex_analysis/
+disease_analysis/
+database_comparison/
+tissue_data_and_comparison/
+methodology_analysis/
+reported_vs_reanalyzed/
+data_preparation_output/
+results and scripts of previous iterations/
+backup_before_feature_abundance/
+contamination_deepdive/
+too large files/
+__pycache__/
+
+# Local data inputs (large / not for source repo)
+msstats/
+sdrf_files/
+external_databases/
+entry_name_mapping/
+
+# Large binary or generated files
+*.parquet
+*.pkl
+*.pickle
+*.feather
+*.h5
+*.hdf5
+*.pptx
